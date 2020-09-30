@@ -104,8 +104,9 @@ public class DocDeadLinks {
         DateFormat df = new SimpleDateFormat("dd-MM-yy");
         Calendar calobj = Calendar.getInstance();
 
-        ExcelUtils.storeDataIntoExcelFile(finallist, "/src/main/resources/DeadLinks.xls","Documentation Dead Links");
+        ExcelUtils.storeDataIntoExcelFile(finallist, "src/main/resources/DeadLinks.xls","Documentation Dead Links");
 
     }
+
 
 }
